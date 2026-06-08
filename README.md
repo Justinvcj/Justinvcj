@@ -1,60 +1,114 @@
-# Hi there, I'm Justin! 👋
+# Hi 👋, I'm Justin Varghese
 
-### Full-Stack Developer | Mobile Engineer | AI Integration Enthusiast
+**Full Stack Developer | AI & ML Enthusiast | Software Engineer**
 
-I'm a software engineer passionate about building high-performance, user-centric applications. Whether I'm crafting a "Midnight Premium" UI in Flutter, integrating Large Language Models into a backend, or writing native Android apps that intercept local device SMS streams, I love solving complex problems across the entire stack.
-
----
-
-## 🛠️ My Tech Stack
-
-**Languages**  
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
-![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
-
-**Frontend & Mobile**  
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) 
-![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white) 
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-**Backend & Cloud**  
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) 
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) 
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) 
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+Building scalable backend systems, real-time distributed applications, and AI-powered solutions focused on real-world impact.
 
 ---
 
-## 🚀 Highlighted Projects
-
-### 🤖 [RepoRoast](https://github.com/Justinvcj/RepooRoast)
-**Your code reviewed by an AI Senior Developer — brutally honest, always free.**
-* A modern web application leveraging the **GitHub REST API** and **Google Gemini 1.5** for automated codebase analysis.
-* Built with **React 18**, **TypeScript**, and **Framer Motion** for a buttery smooth 60fps glassmorphism UI.
-
-### 💳 [Intent_Pay](https://github.com/Justinvcj/Intent_Pay)
-**Behavioral Friction-based UPI Expense Control Android App**
-* Native **Kotlin** and **Jetpack Compose** application.
-* Uses local Broadcast Receivers to parse bank SMS messages offline and injects a "Reflection Phase" UI overlay to curb impulse spending.
-
-### 🚕 [Orbit-Mobility (Equinox)](https://github.com/Justinvcj/Orbit-Mobility)
-**Open-Source Ride-Hailing Ecosystem**
-* A high-performance 3-tier architecture bypassing Google Maps billing by utilizing **OpenStreetMap** and **OSRM**.
-* Includes a **Flutter** client application and a scalable **Node.js/Socket.io** event-driven dispatch server.
-
-### 🧠 [Developer-Knowledge-Engine](https://github.com/Justinvcj/Developer-Knowledge-Engine)
-**Transforming fragmented developer knowledge into a structured, queryable graph.**
-* A data pipeline utilizing **NetworkX** and **OpenAI APIs** to parse unstructured markdown and generate local Knowledge Graphs.
+### 👨‍💻 About Me
+- 🎓 B.E. Computer Science & Engineering Student at **Dr. N.G.P Institute of Technology** (CGPA: 8.6)
+- 🤖 Passionate about **Artificial Intelligence, Backend Architecture, and Real-time Systems**
+- 💻 Focused on **Full Stack Development** and scalable event-driven platforms
+- 🚀 Interested in AI integration, distributed architecture, and mobile development
+- 🏆 Hackathon Participant & Technical Paper Presenter
 
 ---
 
-## 📊 GitHub Stats
+### 🧠 LeetCode Stats
+<div align="left">
+  <img src="https://leetcard.jacoblin.cool/Justinvcj?theme=dark&font=Inter&ext=activity" alt="LeetCode Stats"/>
+</div>
 
+---
+
+### 🛠️ Technical Skills
+
+<div align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,python,c,js,ts,kotlin,dart&perline=10" />
+    <br><br>
+    <img src="https://skillicons.dev/icons?i=nodejs,react,flutter,postgres,sqlite,supabase,git,github&perline=10" />
+  </a>
+</div>
+
+<br>
+
+**AI & Core Concepts:** Large Language Models (LLMs), Gemini API, Prompt Engineering, System Design, Event-Driven Architecture, ETL Pipelines, OOP, DSA.
+
+---
+
+### 🚀 Featured Projects
+
+#### 🚕 Equinox | Ride-Hailing Ecosystem
+*Production-Grade Distributed System*
+- Architected an event-driven backend utilizing Node.js and WebSockets for real-time dispatch.
+- Integrated OSRM for dynamic fare calculation and route tracking.
+- **Tech Stack:** Node.js • WebSockets • Supabase • PostgreSQL • Flutter • OSRM
+
+#### 🧠 Developer Knowledge Engine
+*AI Knowledge Graph Pipeline*
+- Developed an automated ETL pipeline using Python to process unstructured markdown.
+- Utilized OpenAI LLMs and NetworkX to build an interactive knowledge graph.
+- **Tech Stack:** Python • LLMs • NetworkX • SQLite • GitHub API • Pydantic
+
+#### 🤖 RepoRoast | AI Code Review System
+*AI-Powered Repository Analysis*
+- Built a full-stack code analysis application integrating the Gemini API to evaluate code quality.
+- Implemented a multi-file parsing system with a responsive 60fps glassmorphism UI.
+- **Tech Stack:** React • Node.js • TypeScript • Gemini API
+
+#### 💳 Intent Pay | Intelligent Expense Management
+*Native Android Application*
+- Developed an offline app in Kotlin parsing bank SMS alerts via local Broadcast Receivers.
+- Implemented an intelligent rule-based classification engine and interactive "Reflection" overlay.
+- **Tech Stack:** Kotlin • Jetpack Compose • Room DB
+
+---
+
+### 💼 Experience
+
+**Software Development Intern – Nxtlogic Software Solutions**
+📍 Coimbatore | May 2024 – Jul 2024
+- Engineered and integrated 10+ scalable RESTful APIs using Node.js.
+- Accelerated team development velocity by 20% by refactoring legacy backend modules into a modular architecture.
+
+---
+
+### 🏆 Awards & Achievements
+- 🥇 **Winner** – Intra-college Idea Presentation Competition
+- 📜 **Technical Paper Presenter** – Hindusthan College
+- ⭐ **Hackathon Participant** – 24hr Hackathon (KPR Institute) & 36hr Cybersecurity Hackathon
+- 👑 **Leadership** – School Pupil Leader, NSS Captain, JRC Captain
+
+---
+
+### 📊 GitHub Activity
+
+<div align="left">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Justinvcj&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true" alt="GitHub Activity Graph" />
+</div>
+
+---
+
+### 🌐 Connect With Me
+
+<div align="left">
+  <a href="mailto:justinvcj@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://linkedin.com/in/justinvcj">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://leetcode.com/u/Justinvcj/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode" />
+  </a>
+  <a href="https://dinq.me/justin_vcj">
+    <img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=Web&logoColor=white" alt="Portfolio" />
+  </a>
+</div>
+
+<br>
 <div align="center">
-  <i>"Simplicity is prerequisite for reliability."</i>
+  <i>✨ Building impactful software through AI, full stack development, and modern technologies.</i>
 </div>
