@@ -103,7 +103,7 @@ Building scalable backend systems, real-time distributed applications, and AI-po
   <a href="https://leetcode.com/u/Justinvcj/">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode" />
   </a>
-  <a href="https://dinq.me/justin_vcj">
+  <a href="https://justinvcj.me">
     <img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=Web&logoColor=white" alt="Portfolio" />
   </a>
 </div>
