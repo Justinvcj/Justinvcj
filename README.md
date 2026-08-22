@@ -31,7 +31,7 @@ location: Coimbatore, India
 education:
   degree: B.E. Computer Science & Engineering
   university: Dr. N.G.P Institute of Technology
-  cgpa: "[Update Your CGPA here]" # UPDATE_THIS_CGPA
+  cgpa: "[Update Your CGPA here]"
 
 current_focus:
   - Scalable Backend Systems & Event-Driven Architecture
@@ -176,34 +176,6 @@ motto: "Ship fast. Ship quality. Ship things that matter."
 </tr>
 </table>
 
-<!-- ADD MORE PROJECTS AS NEEDED -->
-<!--
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🌾 [Project Name](https://github.com/Justinvcj/REPO_NAME)
-**One-Line Description**
-
-> Brief explanation of what it does and why it matters.
-
-![Badge](https://img.shields.io/badge/Tech-Color?style=flat-square&logo=LOGO&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### 🎯 [Project Name](https://github.com/Justinvcj/REPO_NAME)
-**One-Line Description**
-
-> Brief explanation of what it does and why it matters.
-
-![Badge](https://img.shields.io/badge/Tech-Color?style=flat-square&logo=LOGO&logoColor=white)
-
-</td>
-</tr>
-</table>
--->
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 💼 Experience
@@ -227,37 +199,35 @@ motto: "Ship fast. Ship quality. Ship things that matter."
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📊 GitHub Analytics
+## 📊 Advanced GitHub Metrics
 
 <div align="center">
 
-<!-- STATS + STREAK SIDE BY SIDE -->
+<!-- UNIQUE 3D ISOMETRIC CALENDAR (Auto-Generated via Local GitHub Actions) -->
 <a href="https://github.com/Justinvcj">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Justinvcj&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true" />
+  <img src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/isocalendar.svg" alt="3D Isometric Contribution Calendar" width="100%" />
 </a>
-&nbsp;&nbsp;
-<a href="https://github.com/Justinvcj">
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Justinvcj&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
-</a>
-
-<br><br>
-
-<!-- TROPHY SHELF -->
-[![Trophy](https://github-profile-trophy.vercel.app/?username=Justinvcj&theme=darkhub&no-bg=true&no-frame=true&column=7&margin-w=10)](https://github.com/Justinvcj)
 
 <br>
 
-<!-- ACTIVITY GRAPH -->
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Justinvcj&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Timeline)](https://github.com/Justinvcj)
+<!-- CODING HABITS (Auto-Generated via Local GitHub Actions) -->
+<a href="https://github.com/Justinvcj">
+  <img src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/habits.svg" alt="Advanced Coding Habits" width="100%" />
+</a>
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🧠 LeetCode Progress
+## 🐍 Contribution Snake
 
 <div align="center">
-  <img src="https://leetcard.jacoblin.cool/Justinvcj?theme=dark&font=Inter&ext=activity&border=0&radius=10" alt="LeetCode Stats" width="500"/>
+
+<!-- THE DARK MODE CONTRIBUTION SNAKE (Auto-Generated via Local GitHub Actions) -->
+<a href="https://github.com/Justinvcj">
+  <img src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/github-snake-dark.svg" alt="Snake Animation" width="100%" />
+</a>
+
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -270,21 +240,6 @@ motto: "Ship fast. Ship quality. Ship things that matter."
 |:---:|:---:|:---:|:---:|
 | **Winner** | **Paper Presenter** | **Hackathon Veteran** | **Leadership** |
 | Intra-college Idea Presentation | Technical Paper @ Hindusthan College | 24hr KPR + 36hr Cybersecurity | School Pupil Leader, NSS & JRC Captain |
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<!-- SET UP: Go to https://github.com/Platane/snk and enable the GitHub Action on your repo -->
-<!-- Then uncomment the line below and replace with your username -->
-<!-- ![Snake animation](https://raw.githubusercontent.com/Justinvcj/Justinvcj/output/github-snake-dark.svg) -->
-
-<!-- PLACEHOLDER: Until the Action is set up, this shows the activity graph instead -->
-![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
