@@ -1,0 +1,124 @@
+<svg width="900" height="230" viewBox="0 0 900 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="40%" stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#58a6ff">
+        <animate attributeName="stop-color" values="#58a6ff;#7ee787;#58a6ff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="headerClip"><rect width="900" height="230" rx="8"/></clipPath>
+  </defs>
+
+  <style>
+    @keyframes float1 { 0%,100% { transform: translateY(0); opacity:.15 } 50% { transform: translateY(-10px); opacity:.5 } }
+    @keyframes float2 { 0%,100% { transform: translateY(0); opacity:.2 } 50% { transform: translateY(-14px); opacity:.6 } }
+    @keyframes float3 { 0%,100% { transform: translateY(0); opacity:.1 } 50% { transform: translateY(-8px); opacity:.4 } }
+    @keyframes slideRight { from { transform: translateX(-30px); opacity:0 } to { transform: translateX(0); opacity:1 } }
+    @keyframes fadeUp { from { transform: translateY(12px); opacity:0 } to { transform: translateY(0); opacity:1 } }
+    @keyframes expandX { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    @keyframes blink { 0%,100% { opacity:1 } 50% { opacity:0 } }
+    @keyframes orbit { 0% { transform: rotate(0deg) translateX(6px) rotate(0deg) } 100% { transform: rotate(360deg) translateX(6px) rotate(-360deg) } }
+    @keyframes pulse { 0%,100% { r: 2; opacity:.4 } 50% { r: 3.5; opacity:.8 } }
+    @keyframes scanline { 0% { transform: translateY(-230px) } 100% { transform: translateY(230px) } }
+
+    .d1 { animation: float1 5s ease-in-out infinite }
+    .d2 { animation: float2 6.5s ease-in-out infinite }
+    .d3 { animation: float3 8s ease-in-out infinite }
+    .name { font-family: -apple-system,'Segoe UI',Helvetica,Arial,sans-serif; font-size:44px; font-weight:800; fill:url(#nameGrad); animation: slideRight .8s ease-out both }
+    .role { font-family:'SF Mono','Fira Code','Cascadia Code',monospace; font-size:15px; fill:#8b949e; animation: fadeUp .8s ease-out .4s both }
+    .accent { fill:url(#lineGrad); transform-origin:left center; animation: expandX 1s ease-out .25s both }
+    .cursor { fill:#58a6ff; animation: blink 1s step-end infinite }
+    .tag { font-family:'SF Mono','Fira Code',monospace; font-size:11.5px; fill:#7ee787; opacity:0; animation: fadeUp .6s ease-out both }
+    .tag-border { stroke:#7ee787; stroke-opacity:.3; fill:none; rx:4; opacity:0; animation: fadeUp .6s ease-out both }
+    .orb { animation: orbit 12s linear infinite }
+    .pulse-dot { animation: pulse 3s ease-in-out infinite }
+  </style>
+
+  <g clip-path="url(#headerClip)">
+    <!-- Base -->
+    <rect width="900" height="230" fill="#0d1117"/>
+    
+    <!-- Dot grid -->
+    <g opacity="0.35">
+      <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+        <circle cx="12" cy="12" r="0.6" fill="#30363d"/>
+      </pattern>
+      <rect width="900" height="230" fill="url(#dots)"/>
+    </g>
+
+    <!-- Top glow wash -->
+    <rect width="900" height="120" fill="url(#glowGrad)"/>
+
+    <!-- Scanline effect -->
+    <rect width="900" height="1" fill="#58a6ff" opacity="0.03">
+      <animateTransform attributeName="transform" type="translate" values="0 -230;0 230" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Floating particles -->
+    <circle class="d1" cx="760" cy="45" r="2" fill="#58a6ff"/>
+    <circle class="d2" cx="810" cy="95" r="1.5" fill="#bc8cff"/>
+    <circle class="d3" cx="730" cy="140" r="2.5" fill="#58a6ff"/>
+    <circle class="d1" cx="850" cy="170" r="1" fill="#7ee787"/>
+    <circle class="d2" cx="690" cy="55" r="3" fill="#58a6ff"/>
+    <circle class="d3" cx="870" cy="200" r="1.5" fill="#bc8cff"/>
+    <circle class="d1" cx="80" cy="200" r="1.5" fill="#58a6ff"/>
+    <circle class="d2" cx="40" cy="160" r="2" fill="#bc8cff"/>
+    <circle class="d3" cx="120" cy="180" r="1" fill="#7ee787"/>
+    <circle class="d2" cx="150" cy="30" r="1.5" fill="#58a6ff"/>
+
+    <!-- Left accent bar -->
+    <rect x="55" y="55" width="3" height="120" fill="#58a6ff" rx="1.5" opacity="0.5"/>
+    
+    <!-- Orbiting dot on accent bar -->
+    <g transform="translate(56.5, 115)">
+      <circle class="orb" r="2" fill="#58a6ff" filter="url(#glow)"/>
+    </g>
+
+    <!-- Name -->
+    <text class="name" x="76" y="108">Justin Varghese</text>
+
+    <!-- Accent line -->
+    <rect class="accent" x="76" y="118" width="360" height="2" rx="1"/>
+
+    <!-- Role line -->
+    <text class="role" x="76" y="148">Full Stack Developer · AI &amp; ML · Distributed Systems</text>
+
+    <!-- Blinking cursor -->
+    <rect class="cursor" x="518" y="135" width="9" height="16" rx="1.5"/>
+
+    <!-- Tag pills -->
+    <rect class="tag-border" x="76" y="166" width="80" height="24" style="animation-delay:.9s"/>
+    <text class="tag" x="90" y="182" style="animation-delay:.9s">backend</text>
+
+    <rect class="tag-border" x="166" y="166" width="52" height="24" style="animation-delay:1.05s"/>
+    <text class="tag" x="178" y="182" style="animation-delay:1.05s">ai</text>
+
+    <rect class="tag-border" x="228" y="166" width="88" height="24" style="animation-delay:1.2s"/>
+    <text class="tag" x="240" y="182" style="animation-delay:1.2s">real-time</text>
+
+    <rect class="tag-border" x="326" y="166" width="72" height="24" style="animation-delay:1.35s"/>
+    <text class="tag" x="338" y="182" style="animation-delay:1.35s">mobile</text>
+
+    <rect class="tag-border" x="408" y="166" width="92" height="24" style="animation-delay:1.5s"/>
+    <text class="tag" x="420" y="182" style="animation-delay:1.5s">systems</text>
+
+    <!-- Status dot -->
+    <circle class="pulse-dot" cx="850" cy="30" r="2" fill="#7ee787" filter="url(#glow)"/>
+    <text x="822" y="34" font-family="'SF Mono','Fira Code',monospace" font-size="10" fill="#7ee787" opacity="0.7">●</text>
+    <text x="834" y="34" font-family="'SF Mono','Fira Code',monospace" font-size="10" fill="#8b949e" opacity="0.6">open to work</text>
+  </g>
+</svg>

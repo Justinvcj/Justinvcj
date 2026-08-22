@@ -1,0 +1,51 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="b1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#0969da"/><stop offset="100%" stop-color="#218bff"/></linearGradient>
+    <linearGradient id="b2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#8250df"/><stop offset="100%" stop-color="#a475f9"/></linearGradient>
+    <linearGradient id="b3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#1a7f37"/><stop offset="100%" stop-color="#2da44e"/></linearGradient>
+    <linearGradient id="b4" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#bc4c00"/><stop offset="100%" stop-color="#d4782c"/></linearGradient>
+    <clipPath id="tc"><rect width="900" height="520" rx="8"/></clipPath>
+  </defs>
+  <style>
+    @keyframes grow { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes fadeRight { from { opacity: 0; transform: translateX(-8px) } to { opacity: 1; transform: translateX(0) } }
+    .bar { transform-origin: left center; animation: grow .9s cubic-bezier(.25,.46,.45,.94) both }
+    .label { font-family:'SF Mono','Fira Code',monospace; font-size:12px; fill:#1f2328; opacity:0; animation: fadeRight .5s ease-out both }
+    .pct { font-family:'SF Mono','Fira Code',monospace; font-size:11px; fill:#656d76; opacity:0; animation: fadeIn .5s ease-out both }
+    .cat { font-family:-apple-system,'Segoe UI',sans-serif; font-size:13px; font-weight:700; fill:#0969da; letter-spacing:2px; opacity:0; animation: fadeIn .4s ease-out both }
+    .cat-line { stroke:#d0d7de; stroke-width:1; opacity:0; animation: fadeIn .4s ease-out both }
+    .track { fill:#f6f8fa; rx:3 }
+  </style>
+  <g clip-path="url(#tc)">
+    <rect width="900" height="520" fill="#ffffff"/>
+    <g opacity="0.3"><pattern id="tg" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r="0.5" fill="#d0d7de"/></pattern><rect width="900" height="520" fill="url(#tg)"/></g>
+
+    <text class="cat" x="40" y="40" style="animation-delay:.1s">LANGUAGES</text>
+    <line class="cat-line" x1="140" y1="35" x2="860" y2="35" style="animation-delay:.1s"/>
+    <text class="label" x="40" y="72" style="animation-delay:.2s">Java</text><rect class="track" x="130" y="60" width="690" height="18"/><rect class="bar" x="130" y="60" width="621" height="18" rx="3" fill="url(#b1)" style="animation-delay:.25s"/><text class="pct" x="830" y="73" style="animation-delay:.4s">90%</text>
+    <text class="label" x="40" y="102" style="animation-delay:.3s">Python</text><rect class="track" x="130" y="90" width="690" height="18"/><rect class="bar" x="130" y="90" width="552" height="18" rx="3" fill="url(#b1)" style="animation-delay:.35s"/><text class="pct" x="830" y="103" style="animation-delay:.5s">80%</text>
+    <text class="label" x="40" y="132" style="animation-delay:.4s">JavaScript</text><rect class="track" x="130" y="120" width="690" height="18"/><rect class="bar" x="130" y="120" width="587" height="18" rx="3" fill="url(#b1)" style="animation-delay:.45s"/><text class="pct" x="830" y="133" style="animation-delay:.6s">85%</text>
+    <text class="label" x="40" y="162" style="animation-delay:.5s">TypeScript</text><rect class="track" x="130" y="150" width="690" height="18"/><rect class="bar" x="130" y="150" width="518" height="18" rx="3" fill="url(#b1)" style="animation-delay:.55s"/><text class="pct" x="830" y="163" style="animation-delay:.7s">75%</text>
+    <text class="label" x="40" y="192" style="animation-delay:.6s">Kotlin</text><rect class="track" x="130" y="180" width="310" height="18"/><rect class="bar" x="130" y="180" width="217" height="18" rx="3" fill="url(#b1)" style="animation-delay:.65s"/><text class="pct" x="453" y="193" style="animation-delay:.8s">70%</text>
+    <text class="label" x="490" y="192" style="animation-delay:.6s">Dart</text><rect class="track" x="550" y="180" width="270" height="18"/><rect class="bar" x="550" y="180" width="203" height="18" rx="3" fill="url(#b1)" style="animation-delay:.65s"/><text class="pct" x="830" y="193" style="animation-delay:.8s">75%</text>
+
+    <text class="cat" x="40" y="232" style="animation-delay:.7s">BACKEND &amp; INFRA</text>
+    <line class="cat-line" x1="190" y1="227" x2="860" y2="227" style="animation-delay:.7s"/>
+    <text class="label" x="40" y="264" style="animation-delay:.8s">Node.js</text><rect class="track" x="130" y="252" width="690" height="18"/><rect class="bar" x="130" y="252" width="621" height="18" rx="3" fill="url(#b2)" style="animation-delay:.85s"/><text class="pct" x="830" y="265" style="animation-delay:1s">90%</text>
+    <text class="label" x="40" y="294" style="animation-delay:.9s">WebSockets</text><rect class="track" x="130" y="282" width="690" height="18"/><rect class="bar" x="130" y="282" width="587" height="18" rx="3" fill="url(#b2)" style="animation-delay:.95s"/><text class="pct" x="830" y="295" style="animation-delay:1.1s">85%</text>
+    <text class="label" x="40" y="324" style="animation-delay:1s">PostgreSQL</text><rect class="track" x="130" y="312" width="310" height="18"/><rect class="bar" x="130" y="312" width="248" height="18" rx="3" fill="url(#b2)" style="animation-delay:1.05s"/><text class="pct" x="453" y="325" style="animation-delay:1.2s">80%</text>
+    <text class="label" x="490" y="324" style="animation-delay:1s">Supabase</text><rect class="track" x="570" y="312" width="250" height="18"/><rect class="bar" x="570" y="312" width="200" height="18" rx="3" fill="url(#b2)" style="animation-delay:1.05s"/><text class="pct" x="830" y="325" style="animation-delay:1.2s">80%</text>
+
+    <text class="cat" x="40" y="364" style="animation-delay:1.1s">AI &amp; ML</text>
+    <line class="cat-line" x1="110" y1="359" x2="860" y2="359" style="animation-delay:1.1s"/>
+    <text class="label" x="40" y="396" style="animation-delay:1.2s">LLMs</text><rect class="track" x="130" y="384" width="310" height="18"/><rect class="bar" x="130" y="384" width="233" height="18" rx="3" fill="url(#b3)" style="animation-delay:1.25s"/><text class="pct" x="453" y="397" style="animation-delay:1.4s">75%</text>
+    <text class="label" x="490" y="396" style="animation-delay:1.2s">Gemini API</text><rect class="track" x="580" y="384" width="240" height="18"/><rect class="bar" x="580" y="384" width="192" height="18" rx="3" fill="url(#b3)" style="animation-delay:1.25s"/><text class="pct" x="830" y="397" style="animation-delay:1.4s">80%</text>
+
+    <text class="cat" x="40" y="436" style="animation-delay:1.3s">FRONTEND &amp; MOBILE</text>
+    <line class="cat-line" x1="210" y1="431" x2="860" y2="431" style="animation-delay:1.3s"/>
+    <text class="label" x="40" y="468" style="animation-delay:1.4s">Flutter</text><rect class="track" x="130" y="456" width="690" height="18"/><rect class="bar" x="130" y="456" width="552" height="18" rx="3" fill="url(#b4)" style="animation-delay:1.45s"/><text class="pct" x="830" y="469" style="animation-delay:1.6s">80%</text>
+    <text class="label" x="40" y="498" style="animation-delay:1.5s">React</text><rect class="track" x="130" y="486" width="310" height="18"/><rect class="bar" x="130" y="486" width="233" height="18" rx="3" fill="url(#b4)" style="animation-delay:1.55s"/><text class="pct" x="453" y="499" style="animation-delay:1.7s">75%</text>
+    <text class="label" x="490" y="498" style="animation-delay:1.5s">Compose</text><rect class="track" x="570" y="486" width="250" height="18"/><rect class="bar" x="570" y="486" width="175" height="18" rx="3" fill="url(#b4)" style="animation-delay:1.55s"/><text class="pct" x="830" y="499" style="animation-delay:1.7s">70%</text>
+  </g>
+</svg>
