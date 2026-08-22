@@ -1,109 +1,148 @@
-<!-- ╔══════════════════════════════════════════════════════════════╗ -->
-<!-- ║  README.md for github.com/Justinvcj/Justinvcj              ║ -->
-<!-- ║  Dark/Light mode responsive • Custom animated SVGs          ║ -->
-<!-- ║  Terminal-themed sections • Zero clutter philosophy          ║ -->
-<!-- ╚══════════════════════════════════════════════════════════════╝ -->
-
-<!-- HEADER: Dark/Light mode animated SVG banner -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="Justin Varghese — Full Stack Developer · AI & ML · Distributed Systems" src="assets/header-dark.svg" width="100%">
-</picture>
-
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/justinvcj.me-000?style=flat&logo=googlechrome&logoColor=58a6ff)](https://justinvcj.me)&nbsp;&nbsp;
-[![LinkedIn](https://img.shields.io/badge/justinvcj-000?style=flat&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/justinvcj)&nbsp;&nbsp;
-[![Gmail](https://img.shields.io/badge/justinvcj@gmail.com-000?style=flat&logo=gmail&logoColor=EA4335)](mailto:justinvcj@gmail.com)&nbsp;&nbsp;
-[![LeetCode](https://img.shields.io/badge/Justinvcj-000?style=flat&logo=leetcode&logoColor=FFA116)](https://leetcode.com/u/Justinvcj/)
+<!-- ANIMATED TYPING BANNER -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Hey+%F0%9F%91%8B+I'm+Justin+Varghese;Full+Stack+Developer+%7C+AI+%26+ML+Enthusiast;Building+Systems+That+Scale+%F0%9F%9A%80)](https://git.io/typing-svg)
 
-</div>
+<!-- PROFILE VIEWS + FOLLOWERS -->
+![Profile Views](https://komarev.com/ghpvc/?username=Justinvcj&style=for-the-badge&color=0d1117&labelColor=161b22&label=PROFILE+VIEWS)
+&nbsp;
+[![GitHub followers](https://img.shields.io/github/followers/Justinvcj?style=for-the-badge&logo=github&color=0d1117&labelColor=161b22)](https://github.com/Justinvcj)
+&nbsp;
+[![GitHub Stars](https://img.shields.io/github/stars/Justinvcj?style=for-the-badge&logo=github&color=0d1117&labelColor=161b22)](https://github.com/Justinvcj)
 
 <br>
 
-<!-- ════════════════════════════════════════════════════════════ -->
+<!-- SOCIAL BADGES ROW -->
+[![Portfolio](https://img.shields.io/badge/Portfolio-justinvcj.me-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://justinvcj.me)
+[![Gmail](https://img.shields.io/badge/Gmail-justinvcj@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:justinvcj@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-justinvcj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/justinvcj)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Justinvcj-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Justinvcj/)
 
-## `> whoami`
+</div>
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Justinvcj&layout=donut-vertical&theme=github_dark&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&langs_count=6&size_weight=0.5&count_weight=0.5" width="260">
+<!-- HORIZONTAL RULE WITH STYLE -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> About Me
 
 ```yaml
-name      : Justin Varghese
-education : B.E. Computer Science & Engineering
-university: Dr. N.G.P Institute of Technology
-cgpa      : "8.5"  # <!-- UPDATE THIS -->
-location  : Coimbatore, India
+name: Justin Varghese
+location: Coimbatore, India
+education:
+  degree: B.E. Computer Science & Engineering
+  university: Dr. N.G.P Institute of Technology
+  cgpa: "[Update Your CGPA here]" # UPDATE_THIS_CGPA
 
-currently:
-  building  : Production-grade distributed systems
-  exploring : System design, LLM integration, event-driven arch
-  shipping  : Backend-first full stack applications
+current_focus:
+  - Scalable Backend Systems & Event-Driven Architecture
+  - AI-Powered Applications & LLM Integration
+  - Real-Time Distributed Systems
+  - Mobile Development with Flutter
 
-principles:
-  - Ship it, then polish it
-  - Complexity is the enemy
-  - If it scales, it stays
+motto: "Ship fast. Ship quality. Ship things that matter."
 ```
+
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Justinvcj&layout=donut-vertical&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="280">
+
+- 🔭 Currently building **production-grade distributed systems**
+- 🧠 Deep diving into **System Design & AI/ML Integration**
+- 🏆 Hackathon veteran — **24hr & 36hr events**
+- 📄 Published **Technical Paper** presenter
+- ⚡ Fun fact: I architect backends before breakfast
 
 <br clear="right"/>
 
-<!-- ════════════════════════════════════════════════════════════ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## `> cat tech_stack.md`
+## 🛠️ Tech Arsenal
 
-<!-- TECH STACK: Dark/Light mode animated skill bars -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/tech-light.svg">
-  <img alt="Tech Stack" src="assets/tech-dark.svg" width="100%">
-</picture>
-
-<details>
-<summary><code>extras —— tools, platforms, concepts</code></summary>
+<details open>
+<summary><b>👨‍💻 Languages</b></summary>
 <br>
 
-| Category | |
-|:---|:---|
-| **DevOps & Tools** | Git · GitHub · Postman · Vercel · VS Code · Linux |
-| **Architecture** | Event-Driven · REST · WebSockets · Microservices · OSRM |
-| **Core CS** | DSA · OOP · System Design · ETL Pipelines · Concurrency |
-| **Databases** | PostgreSQL · SQLite · Supabase · Room DB |
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 </details>
 
-<!-- ════════════════════════════════════════════════════════════ -->
+<details open>
+<summary><b>🚀 Frameworks & Runtime</b></summary>
+<br>
 
-## `> ls projects/`
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 
+</details>
+
+<details open>
+<summary><b>🗄️ Databases & Cloud</b></summary>
+<br>
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Room DB](https://img.shields.io/badge/Room_DB-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+
+</details>
+
+<details open>
+<summary><b>🤖 AI & Tools</b></summary>
+<br>
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![LLMs](https://img.shields.io/badge/LLMs-FF6F00?style=for-the-badge&logo=huggingface&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+</details>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 🚀 Featured Projects
+
+<!-- PROJECT CARDS TABLE -->
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### <img src="https://em-content.zobj.net/source/apple/391/taxi_1f695.png" width="20"> Equinox
+### 🚕 [Equinox](https://github.com/Justinvcj/Equinox-EcoSystem)
 **Production-Grade Ride-Hailing Ecosystem**
 
-Architected an event-driven backend with **real-time dispatch** via WebSockets, dynamic fare calculation through OSRM, and a cross-platform Flutter client handling live driver tracking.
+> Architected an event-driven backend with **real-time dispatch**, dynamic fare calculation via OSRM, and a cross-platform Flutter client.
 
-`Node.js` `WebSockets` `Supabase` `PostgreSQL` `Flutter` `OSRM`
-
-<!-- <a href="https://github.com/Justinvcj/REPO_NAME">
-<img src="https://img.shields.io/badge/View_Repo-161b22?style=flat-square&logo=github&logoColor=white">
-</a> -->
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![OSRM](https://img.shields.io/badge/OSRM-7B68EE?style=flat-square)
 
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://em-content.zobj.net/source/apple/391/brain_1f9e0.png" width="20"> Developer Knowledge Engine
+### 🧠 [Developer Knowledge Engine](https://github.com/Justinvcj/Developer-Knowledge-Engine)
 **AI Knowledge Graph Pipeline**
 
-Automated ETL pipeline that processes unstructured markdown into a queryable, interactive knowledge graph using LLMs and NetworkX for relationship extraction.
+> Automated ETL pipeline processing unstructured markdown into an interactive knowledge graph powered by LLMs and NetworkX.
 
-`Python` `OpenAI` `NetworkX` `SQLite` `GitHub API` `Pydantic`
-
-<!-- <a href="https://github.com/Justinvcj/REPO_NAME">
-<img src="https://img.shields.io/badge/View_Repo-161b22?style=flat-square&logo=github&logoColor=white">
-</a> -->
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![NetworkX](https://img.shields.io/badge/NetworkX-4C8CBF?style=flat-square)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![GitHub API](https://img.shields.io/badge/GitHub_API-181717?style=flat-square&logo=github&logoColor=white)
 
 </td>
 </tr>
@@ -111,213 +150,160 @@ Automated ETL pipeline that processes unstructured markdown into a queryable, in
 <tr>
 <td width="50%" valign="top">
 
-### <img src="https://em-content.zobj.net/source/apple/391/fire_1f525.png" width="20"> RepoRoast
+### 🤖 [RepoRoast](https://github.com/Justinvcj/repooroast)
 **AI-Powered Code Review System**
 
-Full-stack code analysis platform with a static analysis engine, intelligent token budget allocation, and diff-aware incremental reviews — scores repos from 0–100.
+> Full-stack code analysis app with static analysis engine, intelligent token budget allocation, and diff-aware incremental reviews.
 
-`React` `TypeScript` `Node.js` `Gemini API`
-
-<!-- <a href="https://github.com/Justinvcj/REPO_NAME">
-<img src="https://img.shields.io/badge/View_Repo-161b22?style=flat-square&logo=github&logoColor=white">
-</a> -->
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://em-content.zobj.net/source/apple/391/credit-card_1f4b3.png" width="20"> Intent Pay
+### 💳 [Intent Pay](https://github.com/Justinvcj/Intent_Pay)
 **Intelligent Expense Management**
 
-Offline-first Android app that parses bank SMS alerts via Broadcast Receivers, classifies transactions with a rule engine, and surfaces spending patterns through an interactive reflection overlay.
+> Native Android app parsing bank SMS alerts via Broadcast Receivers with rule-based classification and interactive reflection overlay.
 
-`Kotlin` `Jetpack Compose` `Room DB`
-
-<!-- <a href="https://github.com/Justinvcj/REPO_NAME">
-<img src="https://img.shields.io/badge/View_Repo-161b22?style=flat-square&logo=github&logoColor=white">
-</a> -->
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
+![Room DB](https://img.shields.io/badge/Room_DB-3DDC84?style=flat-square&logo=android&logoColor=white)
 
 </td>
 </tr>
 </table>
 
+<!-- ADD MORE PROJECTS AS NEEDED -->
 <!--
-  ┌─────────────────────────────────────────────────┐
-  │  ADD MORE PROJECTS: Copy a <td> block above,    │
-  │  update the emoji, title, description & stack.  │
-  │  Uncomment the "View Repo" badge and replace    │
-  │  REPO_NAME with the actual repository name.     │
-  └─────────────────────────────────────────────────┘
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌾 [Project Name](https://github.com/Justinvcj/REPO_NAME)
+**One-Line Description**
+
+> Brief explanation of what it does and why it matters.
+
+![Badge](https://img.shields.io/badge/Tech-Color?style=flat-square&logo=LOGO&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 🎯 [Project Name](https://github.com/Justinvcj/REPO_NAME)
+**One-Line Description**
+
+> Brief explanation of what it does and why it matters.
+
+![Badge](https://img.shields.io/badge/Tech-Color?style=flat-square&logo=LOGO&logoColor=white)
+
+</td>
+</tr>
+</table>
 -->
 
-<!-- ════════════════════════════════════════════════════════════ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## `> work --history`
+## 💼 Experience
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│  Software Development Intern                                 │
-│  Nxtlogic Software Solutions · Coimbatore                    │
-│  May 2024 — Jul 2024                                         │
-│                                                              │
-│  ▸ Engineered 10+ scalable RESTful APIs using Node.js        │
-│  ▸ Boosted team velocity 20% via modular refactoring         │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<td>
 
-<!-- ════════════════════════════════════════════════════════════ -->
+**🏢 Software Development Intern**
+<br>
+*Nxtlogic Software Solutions — Coimbatore*
+<br>
+`May 2024 – Jul 2024`
 
-## `> git log --graph`
+- Engineered **10+ scalable RESTful APIs** using Node.js
+- Boosted team velocity by **20%** through legacy module refactoring into modular architecture
+
+</td>
+</tr>
+</table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 📊 GitHub Analytics
 
 <div align="center">
 
-<!-- Stats + Streak -->
+<!-- STATS + STREAK SIDE BY SIDE -->
 <a href="https://github.com/Justinvcj">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Justinvcj&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Justinvcj&show_icons=true&theme=default&hide_border=true&bg_color=00000000&title_color=0969da&icon_color=0969da&count_private=true&include_all_commits=true">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=Justinvcj&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="GitHub Stats">
-  </picture>
+  <img height="180" src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/stats.svg" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/Justinvcj">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Justinvcj&theme=github-dark-blue&hide_border=true&background=00000000&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff">
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=Justinvcj&theme=default&hide_border=true&background=00000000&ring=0969da&fire=0969da&currStreakLabel=0969da">
-    <img height="170" src="https://streak-stats.demolab.com?user=Justinvcj&theme=github-dark-blue&hide_border=true&background=00000000&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak">
-  </picture>
+  <img height="180" src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/isocalendar.svg" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/Justinvcj">
+  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Justinvcj&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
 </a>
 
 <br><br>
 
-<!-- Trophies -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=Justinvcj&theme=darkhub&no-bg=true&no-frame=true&column=7&margin-w=8">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=Justinvcj&theme=flat&no-bg=true&no-frame=true&column=7&margin-w=8">
-  <img src="https://github-profile-trophy.vercel.app/?username=Justinvcj&theme=darkhub&no-bg=true&no-frame=true&column=7&margin-w=8" alt="Trophies" width="780">
-</picture>
+<!-- TROPHY SHELF (Gamified Achievements) -->
+<a href="https://github.com/Justinvcj">
+  <img src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/achievements.svg" />
+</a>
+<br>
 
-<br><br>
-
-<!-- Activity Graph -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Justinvcj&bg_color=00000000&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Timeline">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Justinvcj&bg_color=00000000&color=0969da&line=0969da&point=1f2328&area=true&hide_border=true&custom_title=Contribution%20Timeline&area_color=0969da">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Justinvcj&bg_color=00000000&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Timeline" alt="Activity Graph" width="100%">
-</picture>
+<!-- ACTIVITY GRAPH -->
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Justinvcj&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Timeline)](https://github.com/Justinvcj)
 
 </div>
 
-<!-- ════════════════════════════════════════════════════════════ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## `> leetcode --stats`
+## 🧠 LeetCode Progress
+
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/Justinvcj?theme=dark&font=Inter&ext=activity&border=0&radius=10" alt="LeetCode Stats" width="500"/>
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 🏆 Achievements
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/Justinvcj?theme=dark&font=Fira%20Code&ext=activity&border=0&radius=8">
-  <source media="(prefers-color-scheme: light)" srcset="https://leetcard.jacoblin.cool/Justinvcj?theme=light&font=Fira%20Code&ext=activity&border=0&radius=8">
-  <img src="https://leetcard.jacoblin.cool/Justinvcj?theme=dark&font=Fira%20Code&ext=activity&border=0&radius=8" alt="LeetCode Stats" width="520">
-</picture>
+| 🥇 | 📜 | ⭐ | 👑 |
+|:---:|:---:|:---:|:---:|
+| **Winner** | **Paper Presenter** | **Hackathon Veteran** | **Leadership** |
+| Intra-college Idea Presentation | Technical Paper @ Hindusthan College | 24hr KPR + 36hr Cybersecurity | School Pupil Leader, NSS & JRC Captain |
 
 </div>
 
-<!-- ════════════════════════════════════════════════════════════ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## `> cat achievements.log`
+## 🐍 Contribution Snake
 
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://em-content.zobj.net/source/apple/391/trophy_1f3c6.png" width="36"><br>
-<b>Winner</b><br>
-<sub>Intra-college<br>Idea Presentation</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://em-content.zobj.net/source/apple/391/scroll_1f4dc.png" width="36"><br>
-<b>Paper Presenter</b><br>
-<sub>Technical Paper @<br>Hindusthan College</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://em-content.zobj.net/source/apple/391/star_2b50.png" width="36"><br>
-<b>Hackathon Veteran</b><br>
-<sub>24hr KPR Institute +<br>36hr Cybersecurity</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://em-content.zobj.net/source/apple/391/crown_1f451.png" width="36"><br>
-<b>Leadership</b><br>
-<sub>Pupil Leader ·<br>NSS &amp; JRC Captain</sub>
-</td>
-</tr>
-</table>
-
-<!-- ════════════════════════════════════════════════════════════ -->
-
-<!-- CONTRIBUTION SNAKE -->
-<!--
-  ┌─────────────────────────────────────────────────────────┐
-  │  SETUP (one-time, ~2 mins):                             │
-  │                                                         │
-  │  1. In your Justinvcj/Justinvcj repo, create:          │
-  │     .github/workflows/snake.yml                         │
-  │                                                         │
-  │  2. Paste:                                              │
-  │     name: Generate Snake                                │
-  │     on:                                                 │
-  │       schedule:                                         │
-  │         - cron: "0 0 * * *"                             │
-  │       workflow_dispatch:                                │
-  │     jobs:                                               │
-  │       build:                                            │
-  │         runs-on: ubuntu-latest                          │
-  │         steps:                                          │
-  │           - uses: Platane/snk/svg-only@v3               │
-  │             with:                                       │
-  │               github_user_name: Justinvcj               │
-  │               outputs: |                                │
-  │                 dist/dark.svg?palette=github-dark        │
-  │                 dist/light.svg?palette=github            │
-  │           - uses: crazy-max/ghaction-github-pages@v3     │
-  │             with:                                       │
-  │               target_branch: output                     │
-  │               build_dir: dist                           │
-  │                                                         │
-  │  3. Go to Actions tab → Run the workflow manually once  │
-  │  4. Uncomment the section below                         │
-  └─────────────────────────────────────────────────────────┘
--->
-
-<!--
 <div align="center">
 
-## `> watch contributions`
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Justinvcj/Justinvcj/output/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Justinvcj/Justinvcj/output/light.svg">
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/output/dark.svg" width="100%">
-</picture>
+<!-- THE DARK MODE CONTRIBUTION SNAKE (Auto-Generated via Local GitHub Actions) -->
+![Snake animation](https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/github-snake-dark.svg)
 
 </div>
--->
 
-<!-- ════════════════════════════════════════════════════════════ -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- QUOTE OF THE DAY -->
+<div align="center">
+
+### 💭 Random Dev Quote
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
+
+</div>
+
+<!-- FOOTER -->
+<div align="center">
 
 <br>
 
-<div align="center">
-
-![Views](https://komarev.com/ghpvc/?username=Justinvcj&style=flat-square&color=161b22&labelColor=161b22&label=views)
-
-<sub>
-
-```
-Built with patience, caffeine, and an unreasonable number of git commits.
-```
-
-</sub>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" width="100%"/>
 
 </div>
-
-<!-- EOF -->
