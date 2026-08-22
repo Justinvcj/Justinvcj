@@ -18,22 +18,20 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
           output_action: commit
           committer_branch: profile-assets
 
-      - name: Generate Advanced Coding Habits
+      - name: Generate Gamified Achievements
         uses: lowlighter/metrics@latest
         with:
-          filename: habits.svg
+          filename: achievements.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          config_timezone: Asia/Kolkata
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
           output_action: commit
           committer_branch: profile-assets
 
