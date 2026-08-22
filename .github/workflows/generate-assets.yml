@@ -1,9 +1,9 @@
-name: Generate Exceptional Profile Assets
+name: Generate Profile Assets
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Runs every 12 hours
-  workflow_dispatch: # Allows manual trigger
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
   generate-metrics:
@@ -11,7 +11,17 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate 3D Isometric Calendar
+      - name: Generate Classic Stats (Replaces Vercel Stats)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: header, activity, repositories
+          config_timezone: Asia/Kolkata
+          output_action: commit
+          committer_branch: profile-assets
+
+      - name: Generate Isometric Calendar (Replaces Streak)
         uses: lowlighter/metrics@latest
         with:
           filename: isocalendar.svg
@@ -22,18 +32,14 @@ jobs:
           output_action: commit
           committer_branch: profile-assets
 
-      - name: Generate Advanced Coding Habits
+      - name: Generate Achievements (Replaces Trophies)
         uses: lowlighter/metrics@latest
         with:
-          filename: habits.svg
+          filename: achievements.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          config_timezone: Asia/Kolkata
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
           output_action: commit
           committer_branch: profile-assets
 

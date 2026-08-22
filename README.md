@@ -233,7 +233,11 @@ motto: "Ship fast. Ship quality. Ship things that matter."
 
 <!-- STATS + STREAK SIDE BY SIDE -->
 <a href="https://github.com/Justinvcj">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Justinvcj&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&count_private=true&include_all_commits=true" />
+  <img height="180" src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/stats.svg" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/Justinvcj">
+  <img height="180" src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/isocalendar.svg" />
 </a>
 &nbsp;&nbsp;
 <a href="https://github.com/Justinvcj">
@@ -242,9 +246,10 @@ motto: "Ship fast. Ship quality. Ship things that matter."
 
 <br><br>
 
-<!-- TROPHY SHELF -->
-[![Trophy](https://github-profile-trophy.vercel.app/?username=Justinvcj&theme=darkhub&no-bg=true&no-frame=true&column=7&margin-w=10)](https://github.com/Justinvcj)
-
+<!-- TROPHY SHELF (Gamified Achievements) -->
+<a href="https://github.com/Justinvcj">
+  <img src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/achievements.svg" />
+</a>
 <br>
 
 <!-- ACTIVITY GRAPH -->
@@ -279,12 +284,8 @@ motto: "Ship fast. Ship quality. Ship things that matter."
 
 <div align="center">
 
-<!-- SET UP: Go to https://github.com/Platane/snk and enable the GitHub Action on your repo -->
-<!-- Then uncomment the line below and replace with your username -->
-<!-- ![Snake animation](https://raw.githubusercontent.com/Justinvcj/Justinvcj/output/github-snake-dark.svg) -->
-
-<!-- PLACEHOLDER: Until the Action is set up, this shows the activity graph instead -->
-![Snake animation](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg)
+<!-- THE DARK MODE CONTRIBUTION SNAKE (Auto-Generated via Local GitHub Actions) -->
+![Snake animation](https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/github-snake-dark.svg)
 
 </div>
 
