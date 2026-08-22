@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- ANIMATED TYPING BANNER -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Hey+%F0%9F%91%8B+I'm+Justin+Varghese;Full+Stack+Developer+%7C+AI+%26+ML+Enthusiast;Building+Systems+That+Scale+%F0%9F%9A%80)](https://git.io/typing-svg)
+<!-- ANIMATED TYPING BANNER (INCREASED HEIGHT TO FIX CUT OFF) -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=140&lines=Hey+%F0%9F%91%8B+I'm+Justin+Varghese;Full+Stack+Developer+%7C+AI+%26+ML+Enthusiast;Building+Systems+That+Scale+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <!-- PROFILE VIEWS + FOLLOWERS -->
 ![Profile Views](https://komarev.com/ghpvc/?username=Justinvcj&style=for-the-badge&color=0d1117&labelColor=161b22&label=PROFILE+VIEWS)
@@ -31,7 +31,7 @@ location: Coimbatore, India
 education:
   degree: B.E. Computer Science & Engineering
   university: Dr. N.G.P Institute of Technology
-  cgpa: "[Update Your CGPA here]" # UPDATE_THIS_CGPA
+  cgpa: "[Update Your CGPA here]"
 
 current_focus:
   - Scalable Backend Systems & Event-Driven Architecture
@@ -176,34 +176,6 @@ motto: "Ship fast. Ship quality. Ship things that matter."
 </tr>
 </table>
 
-<!-- ADD MORE PROJECTS AS NEEDED -->
-<!--
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🌾 [Project Name](https://github.com/Justinvcj/REPO_NAME)
-**One-Line Description**
-
-> Brief explanation of what it does and why it matters.
-
-![Badge](https://img.shields.io/badge/Tech-Color?style=flat-square&logo=LOGO&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### 🎯 [Project Name](https://github.com/Justinvcj/REPO_NAME)
-**One-Line Description**
-
-> Brief explanation of what it does and why it matters.
-
-![Badge](https://img.shields.io/badge/Tech-Color?style=flat-square&logo=LOGO&logoColor=white)
-
-</td>
-</tr>
-</table>
--->
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 💼 Experience
@@ -231,25 +203,21 @@ motto: "Ship fast. Ship quality. Ship things that matter."
 
 <div align="center">
 
-<!-- STATS + STREAK SIDE BY SIDE -->
+<!-- STATS + STREAK SIDE BY SIDE (LOCALLY GENERATED) -->
 <a href="https://github.com/Justinvcj">
-  <img height="180" src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/stats.svg" />
+  <img src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/stats.svg" />
 </a>
-&nbsp;&nbsp;
 <a href="https://github.com/Justinvcj">
-  <img height="180" src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/isocalendar.svg" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/Justinvcj">
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Justinvcj&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" />
+  <img src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/isocalendar.svg" />
 </a>
 
 <br><br>
 
-<!-- TROPHY SHELF (Gamified Achievements) -->
+<!-- TROPHY SHELF (ACHIEVEMENTS) -->
 <a href="https://github.com/Justinvcj">
   <img src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/achievements.svg" />
 </a>
+
 <br>
 
 <!-- ACTIVITY GRAPH -->
@@ -285,17 +253,9 @@ motto: "Ship fast. Ship quality. Ship things that matter."
 <div align="center">
 
 <!-- THE DARK MODE CONTRIBUTION SNAKE (Auto-Generated via Local GitHub Actions) -->
-![Snake animation](https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/github-snake-dark.svg)
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<!-- QUOTE OF THE DAY -->
-<div align="center">
-
-### 💭 Random Dev Quote
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
+<a href="https://github.com/Justinvcj">
+  <img src="https://raw.githubusercontent.com/Justinvcj/Justinvcj/profile-assets/github-snake-dark.svg" alt="Snake Animation" width="100%" />
+</a>
 
 </div>
 
