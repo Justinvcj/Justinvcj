@@ -31,7 +31,7 @@ location: Coimbatore, India
 education:
   degree: B.E. Computer Science & Engineering
   university: Dr. N.G.P Institute of Technology
-  cgpa: "[Update Your CGPA here]"
+  cgpa: 8.6
 
 current_focus:
   - Scalable Backend Systems & Event-Driven Architecture
